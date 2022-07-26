@@ -9,6 +9,7 @@ const App= (props)=> {
       }
       <Routes>
         <Route path="*" element={<Main></Main>}></Route>
+        <Route path="/hihi" element={<div>Hello World</div>}></Route>
       </Routes>
     </Router>
   )
